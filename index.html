@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>KYLA Store — Melvin Charagu</title>
+  <meta name="description" content="Digital products by Melvin Charagu / KYLA — prompts, hooks, landing kits." />
+  <style>
+    :root { --bg:#0b0b12; --card:#141422; --text:#f4f4fb; --muted:#9a9ab3; --accent:#7c5cff; --teal:#3dd6c6; --border:#2a2a3d; }
+    * { box-sizing:border-box; }
+    body { margin:0; font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif; background:radial-gradient(900px 480px at 8% -8%,#1a1040,var(--bg) 55%); color:var(--text); line-height:1.5; }
+    a { color:var(--teal); }
+    .wrap { max-width:920px; margin:0 auto; padding:24px 16px 72px; }
+    header { display:flex; justify-content:space-between; align-items:center; gap:12px; margin-bottom:28px; flex-wrap:wrap; }
+    .logo { font-weight:800; letter-spacing:.06em; font-size:1.25rem; }
+    .tag { font-size:12px; color:var(--muted); border:1px solid var(--border); padding:4px 10px; border-radius:999px; }
+    h1 { font-size:clamp(1.6rem,4.5vw,2.3rem); margin:0 0 8px; line-height:1.15; }
+    .lead { color:var(--muted); margin:0 0 28px; max-width:36rem; }
+    .grid { display:grid; gap:16px; }
+    @media(min-width:640px){ .grid { grid-template-columns:1fr 1fr; } .featured { grid-column:1/-1; } }
+    .card { background:var(--card); border:1px solid var(--border); border-radius:16px; padding:20px; display:flex; flex-direction:column; gap:10px; }
+    .card h2 { margin:0; font-size:1.15rem; }
+    .price { font-size:1.75rem; font-weight:800; color:var(--teal); }
+    .card ul { margin:0; padding-left:1.1rem; color:var(--muted); font-size:.95rem; }
+    .btns { display:flex; flex-wrap:wrap; gap:10px; margin-top:auto; padding-top:8px; }
+    .btn { display:inline-block; padding:12px 18px; border-radius:12px; font-weight:600; text-decoration:none; border:1px solid transparent; font-size:.95rem; }
+    .btn-buy { background:linear-gradient(135deg,var(--accent),#5b8cff); color:#fff; }
+    .btn-wa { background:transparent; border-color:var(--border); color:var(--text); }
+    .service { margin-top:28px; padding:22px; border-radius:16px; border:1px solid var(--accent); background:linear-gradient(180deg,#1a1530,var(--card)); }
+    .service .price { font-size:2rem; }
+    footer { margin-top:40px; font-size:13px; color:var(--muted); border-top:1px solid var(--border); padding-top:16px; }
+    code { background:#1e1e30; padding:1px 6px; border-radius:4px; font-size:.85em; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="logo">KYLA STORE</div>
+      <div class="tag">Melvin Charagu · Nairobi</div>
+    </header>
+    <h1>Ship-ready digital packs</h1>
+    <p class="lead">Prompts, Reels templates, and a one-file landing kit. Buy with card (Gumroad) or WhatsApp / M-Pesa.</p>
+    <div class="grid">
+      <article class="card" id="prompts">
+        <h2>Agent Prompt Pack Pro</h2>
+        <div class="price">$19</div>
+        <ul>
+          <li>47 copy-paste prompts</li>
+          <li>Agents · sales · content · SaaS</li>
+          <li>Markdown download</li>
+        </ul>
+        <div class="btns">
+          <a class="btn btn-buy" href="GUMROAD_PROMPTS_URL">Buy $19</a>
+          <a class="btn btn-wa" href="https://wa.me/254XXXXXXXXX?text=Hi%20Melvin%20-%20Agent%20Prompt%20Pack%20Pro%20%2419">WhatsApp / M-Pesa</a>
+        </div>
+      </article>
+      <article class="card" id="hooks">
+        <h2>TikTok / Reels Hooks</h2>
+        <div class="price">$12</div>
+        <ul>
+          <li>30 hooks + CapCut shot lists</li>
+          <li>3 full scripts</li>
+          <li>Pairs with kyla-clip</li>
+        </ul>
+        <div class="btns">
+          <a class="btn btn-buy" href="GUMROAD_HOOKS_URL">Buy $12</a>
+          <a class="btn btn-wa" href="https://wa.me/254XXXXXXXXX?text=Hi%20Melvin%20-%20TikTok%20Reels%20Hooks%20%2412">WhatsApp / M-Pesa</a>
+        </div>
+      </article>
+      <article class="card featured" id="landing">
+        <h2>Indie Landing Page Kit</h2>
+        <div class="price">$29</div>
+        <ul>
+          <li>1 beautiful single-file HTML landing</li>
+          <li>Gumroad CTA + WhatsApp/M-Pesa placeholders</li>
+          <li>10-minute customize README</li>
+        </ul>
+        <div class="btns">
+          <a class="btn btn-buy" href="GUMROAD_LANDING_URL">Buy $29</a>
+          <a class="btn btn-wa" href="https://wa.me/254XXXXXXXXX?text=Hi%20Melvin%20-%20Indie%20Landing%20Kit%20%2429">WhatsApp / M-Pesa</a>
+        </div>
+      </article>
+    </div>
+    <section class="service" id="dfy">
+      <h2>Done-For-You Landing Page</h2>
+      <div class="price">$250</div>
+      <p style="color:var(--muted);margin:8px 0 14px;">Fastest single-sale path. Melvin builds a custom one-page for your offer — copy + checkout wiring.</p>
+      <div class="btns">
+        <a class="btn btn-buy" href="https://wa.me/254XXXXXXXXX?text=Hi%20Melvin%20-%20%24250%20Done-For-You%20landing">Book via WhatsApp</a>
+      </div>
+    </section>
+    <footer>
+      <p><strong>Checkout:</strong> Paste Gumroad links (see <code>PHONE_SELL.md</code> / <code>BUY.md</code>). Replace <code>254XXXXXXXXX</code> with your WhatsApp.</p>
+      <p>KYLA · Melvin Charagu · No fake testimonials</p>
+    </footer>
+  </div>
+</body>
+</html>
